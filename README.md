@@ -24,8 +24,11 @@ articles = searcher.search("your_query_here", 20)
 
 Replace `"your_query_here"` with your desired search query and `20` with the maximum number of articles to return.
 
-3. Returned articles is a Article class with six attributes (pubmed_id, title, abstract, authors, doi, url).
+3. Returned articles is a list of Article class with six attributes (pubmed_id, title, abstract, authors, doi, url).
 
 ```python
 Article(pubmed_id=12345, title="Article title", abstract="Article abstract", authors="Author names", doi="Article doi", url="Article URL")
 ```
+
+4. Reference
+* https://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESearch
